@@ -136,6 +136,7 @@ class App extends React.Component {
 					))}
 				</div>
         {(() => {
+			// for loading bar
           if (this.state.requestSent) {
             return(
               <div className="data-loading">
